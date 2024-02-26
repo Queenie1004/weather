@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About weather</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css/weather.css">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header">
+            <h1>ABOUT WEATHER</h1>
+           <select id="weather-select">
+            <option value="Vancouver">Vancouver</option>
+            <option value="Toronto">Toronto</option>
+            <option value="Calgary">Calgary</option>
+            <option value="Seoul">Seoul</option>
+           </select>
+        </header>
+        <section class="main-section">
+            <div class="info">
+                <p class="location">Vancouver</p>
+                <p class="temperature">
+                    <span>3</span>&deg; C
+                </p>
+                <p class="weather">
+                    <img src="https://images.unsplash.com/photo-1590315577525-49e66f8e6d0c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="1">
+                </p>
+                <p class="detail">
+                    <span class="feel-like">체감 <span>7</span>&deg;C</span>
+                    <span class="wind">초속 <span>7</span>m/s</span>
+                </p>
+            </div>
+            <img id="spinner" src="https://plac" alt="2">
+        </section>
+    </div>
+    <script src="js/weather.js"></script>
+</body>
+</html>
